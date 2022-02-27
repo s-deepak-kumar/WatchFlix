@@ -1,0 +1,8 @@
+{
+  "name": "com.sdeepakkumar.app.watchflix",
+  "description": "WatchFlix",
+  "dependencies": {
+    "@lightningjs/sdk": "^4.8.1",
+    "@lightningjs/ui": "^1.2.0"
+  }
+}
