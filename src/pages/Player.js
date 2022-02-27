@@ -36,23 +36,6 @@ export default class Player extends Lightning.Component {
                     textColor: 0xffffffff,
                 },
             },
-            TopHeader: {
-                w: 1920,
-                h: 130,
-                rect: true,
-                color: 0xff404249,
-                flex: {direction: "row"},
-                BackButton: {
-                    x: 68,
-                    y: 30,
-                    type: ImageButton, icon: "ic_back"
-                },
-                Title: {
-                    x: 100,
-                    y: 45,
-                    text: {text: "Hello How Are You?", fontSize: 30, fontFace: "SourceSansPro-Bold", wordWrapWidth: 960, maxLines: 1}
-                },
-            },
             ErrorScreen: {
                 type: ErrorScreen,
                 alpha: 0,
@@ -101,11 +84,6 @@ export default class Player extends Lightning.Component {
             Ui: {
                 smooth: {
                     y: [visible ? 910 : 960],
-                    alpha: [visible ? 1 : 0],
-                },
-            },
-            TopHeader: {
-                smooth: {
                     alpha: [visible ? 1 : 0],
                 },
             }
@@ -164,10 +142,6 @@ export default class Player extends Lightning.Component {
     _captureKey() {
         this._toggleInterface(true)
         return !this._interfaceVisible
-    }
-
-    _handleUp() {
-        this._index = this._index - 1;
     }
 
     _handleLeft() {
