@@ -1,4 +1,7 @@
 # WatchFlix
+The New Edge Of OTT Plateform. This App Build Using LightingJs To Give User Endless Experience Totally Free.
+
+![watchflix](https://github.com/s-deepak-kumar/WatchFlix/blob/42e984340114908e6465c896f21825619de52a70/screenshots/splash_watchflix.jpg)
 
 ## com.sdeepakkumar.app.watchflix
 
